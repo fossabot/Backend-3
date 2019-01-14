@@ -333,6 +333,10 @@ export class AuthRouter {
       if (request.body.otp && user.verifyOTP(request.body.otp)) {
         request.user.otpPassed = true;
       }
+      if (request.body.otp && !user.verifyOTP(request.body.otp)) {
+        error('OTP_INVALID', 400);
+        return;
+      }
       if (user.checkOTPEnabled()) {
         user.permissions.push(request.user.otpPassed ? 'otpPassed' : 'otpRequired');
       }

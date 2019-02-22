@@ -1,4 +1,6 @@
 # SubwayRanks Backend
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSubwayRanks%2FBackend.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSubwayRanks%2FBackend?ref=badge_shield)
+
 ## Installation
 
 ```bash
@@ -22,3 +24,7 @@ npm run tsc:w
 После этого можно будет ставить брейкпоинты в идее прямо в typescript-коде.
 Дебаг будет тоже работать полностью: в переменные можно подсматривать и т.д.
 Проверь что в settings->languages&frameworks->typescript правильно все натроено и стоит галка `recompile on changes` 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSubwayRanks%2FBackend.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FSubwayRanks%2FBackend?ref=badge_large)
